@@ -1,8 +1,15 @@
- 
- <div class="container">
+ <div class="container" ng-controller="MovieController as vm">
+
+ 			<center class="well">
+    			<input ng-model="vm.movie" placeholder="Search for Movies"></input><button ng-click="vm.findMovie()" class="btn btn-primary">Submit</button>
+    		</center>
+    	
             <div class="row">
                 <div class="col-lg-12 text-center">
                 	This is where our movies will go!
+                </div>
+                <div>
+                	
                 </div>
             </div>
             <!-- /.row -->

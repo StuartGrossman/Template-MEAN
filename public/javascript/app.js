@@ -9,7 +9,7 @@
 			contorller: 'MovieController',
 			templateUrl: 'templates/Home.html'
 		})
-
+		console.log('App.js has loaded!')
 		$urlRouterProvider.otherwise('/home');
 	}
 })();
