@@ -1,4 +1,4 @@
-// var express = require('express');
+var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 var app = express();
@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(bodyParser.json());
-app.use(passport.initialize());
+// app.use(passport.initialize());
 
 app.get('/', function(req, res) {
   res.render('index');
