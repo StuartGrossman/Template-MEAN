@@ -5,6 +5,7 @@
 
 	function MovieController($state){
 		var vm = this;
+		
 		console.log('MovieController has Loaded')
 		
 		vm.findMovie = function(){
